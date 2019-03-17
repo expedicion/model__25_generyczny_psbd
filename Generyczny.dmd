@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Generyczny" id="6DB0C83E-687F-D280-08B5-30F1DBF0D4CA" version="3.5">
+<createdBy>kozelski</createdBy>
+<createdTime>2019-03-12 17:56:42 UTC</createdTime>
+<ownerDesignName>Generyczny</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>6DB0C83E-687F-D280-08B5-30F1DBF0D4CA</designId>
+</OSDM_Design>

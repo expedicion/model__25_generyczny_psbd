@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="00F1E3BC-E4D8-3C2B-C526-4B6F6606698B" name="OBIEKT">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-12 17:57:21 UTC</createdTime>
+<ownerDesignName>Generyczny</ownerDesignName>
+<engineerTo>
+<item key="8689172A-E436-2C48-BED8-B7D8654B3E02" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="KOD_TYPU_OBIEKTU" id="EA678E11-CC0C-7507-2D12-2CED9E33F558">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-12 17:57:33 UTC</createdTime>
+<ownerDesignName>Generyczny</ownerDesignName>
+<engineerTo>
+<item key="8689172A-E436-2C48-BED8-B7D8654B3E02" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_OBIEKTU" id="E18DE1F4-145C-1136-73C2-30848859B3BA">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-12 17:57:45 UTC</createdTime>
+<ownerDesignName>Generyczny</ownerDesignName>
+<engineerTo>
+<item key="8689172A-E436-2C48-BED8-B7D8654B3E02" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NAZWA" id="5CE1C06F-FE6B-A317-C2A9-423B36D39057">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-12 17:57:59 UTC</createdTime>
+<ownerDesignName>Generyczny</ownerDesignName>
+<engineerTo>
+<item key="8689172A-E436-2C48-BED8-B7D8654B3E02" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OPIS" id="E421482C-599B-C27E-5C0B-D65814EE5AA8">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-12 17:58:06 UTC</createdTime>
+<ownerDesignName>Generyczny</ownerDesignName>
+<engineerTo>
+<item key="8689172A-E436-2C48-BED8-B7D8654B3E02" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KOD_TYPU_OBIEKTU1" id="AB48E065-541D-0913-70DC-6C5B0054A1F3">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-12 18:02:43 UTC</createdTime>
+<generatorID>097C602C-207C-4A4E-18BB-6817ED92B63C</generatorID>
+<ownerDesignName>Generyczny</ownerDesignName>
+<engineerTo>
+<item key="8689172A-E436-2C48-BED8-B7D8654B3E02" value="true"/>
+</engineerTo>
+<referedAttribute>6BDD1690-402C-F2AB-2A28-0348E8627E31</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="322436B5-7C68-7F6E-F14F-47AB79AC0067" name="OBIEKTY PK">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-12 17:57:43 UTC</createdTime>
+<ownerDesignName>Generyczny</ownerDesignName>
+<engineerTo>
+<item key="8689172A-E436-2C48-BED8-B7D8654B3E02" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EA678E11-CC0C-7507-2D12-2CED9E33F558</attributeRef>
+<attributeRef>AB48E065-541D-0913-70DC-6C5B0054A1F3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

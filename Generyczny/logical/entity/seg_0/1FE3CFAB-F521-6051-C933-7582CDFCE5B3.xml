@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1FE3CFAB-F521-6051-C933-7582CDFCE5B3" name="WARTOSC_WLASCIWOSCI">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-12 18:01:40 UTC</createdTime>
+<ownerDesignName>Generyczny</ownerDesignName>
+<engineerTo>
+<item key="8689172A-E436-2C48-BED8-B7D8654B3E02" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="WARTOSC" id="2ABC2F2A-CAF5-F605-ECDD-7CD5B35CA216">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-12 18:01:56 UTC</createdTime>
+<ownerDesignName>Generyczny</ownerDesignName>
+<engineerTo>
+<item key="8689172A-E436-2C48-BED8-B7D8654B3E02" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KOD_TYPU_OBIEKTU" id="5CE4B80F-F4A6-C398-2528-D3009FDFD708">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-12 18:02:30 UTC</createdTime>
+<generatorID>975D3B96-08AE-D76F-BB21-32D66ACF7ECD</generatorID>
+<ownerDesignName>Generyczny</ownerDesignName>
+<engineerTo>
+<item key="8689172A-E436-2C48-BED8-B7D8654B3E02" value="true"/>
+</engineerTo>
+<referedAttribute>EA678E11-CC0C-7507-2D12-2CED9E33F558</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KOD_TYPU_OBIEKTU1" id="32978CB4-1AF3-682D-B567-CA36F7C252E3">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-12 18:02:43 UTC</createdTime>
+<generatorID>975D3B96-08AE-D76F-BB21-32D66ACF7ECD</generatorID>
+<ownerDesignName>Generyczny</ownerDesignName>
+<engineerTo>
+<item key="8689172A-E436-2C48-BED8-B7D8654B3E02" value="true"/>
+</engineerTo>
+<referedAttribute>AB48E065-541D-0913-70DC-6C5B0054A1F3</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Attribute_1" id="D2499A3C-8E9E-C02F-E1B8-4F7D396C4C74">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-12 18:03:24 UTC</createdTime>
+<generatorID>14904089-B963-F341-5E4F-23D93253B1D5</generatorID>
+<ownerDesignName>Generyczny</ownerDesignName>
+<engineerTo>
+<item key="8689172A-E436-2C48-BED8-B7D8654B3E02" value="true"/>
+</engineerTo>
+<referedAttribute>1F86FEFF-F0DE-975D-34B3-C2A2B1F74750</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KOD_TYPU_OBIEKTU2" id="6CCA2D96-79E1-A56C-F609-7BA4379763BA">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-12 18:03:24 UTC</createdTime>
+<generatorID>14904089-B963-F341-5E4F-23D93253B1D5</generatorID>
+<ownerDesignName>Generyczny</ownerDesignName>
+<engineerTo>
+<item key="8689172A-E436-2C48-BED8-B7D8654B3E02" value="true"/>
+</engineerTo>
+<referedAttribute>93C15EFD-4096-8E9D-2A48-8E14A2342D7B</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KOD_WLASCIWOSCI" id="DCE4D54F-27AE-70E3-0358-8D4C2ED9CA2D">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-12 18:03:24 UTC</createdTime>
+<generatorID>14904089-B963-F341-5E4F-23D93253B1D5</generatorID>
+<ownerDesignName>Generyczny</ownerDesignName>
+<engineerTo>
+<item key="8689172A-E436-2C48-BED8-B7D8654B3E02" value="true"/>
+</engineerTo>
+<referedAttribute>F83CAD7B-8FDC-D946-DCB0-7990A80E8336</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2122D289-F859-6993-2D7B-A9E54A182ED8" name="WARTOSC_WLASCIWOSCI PK">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-12 18:02:30 UTC</createdTime>
+<ownerDesignName>Generyczny</ownerDesignName>
+<engineerTo>
+<item key="8689172A-E436-2C48-BED8-B7D8654B3E02" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5CE4B80F-F4A6-C398-2528-D3009FDFD708</attributeRef>
+<attributeRef>32978CB4-1AF3-682D-B567-CA36F7C252E3</attributeRef>
+<attributeRef>D2499A3C-8E9E-C02F-E1B8-4F7D396C4C74</attributeRef>
+<attributeRef>6CCA2D96-79E1-A56C-F609-7BA4379763BA</attributeRef>
+<attributeRef>DCE4D54F-27AE-70E3-0358-8D4C2ED9CA2D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

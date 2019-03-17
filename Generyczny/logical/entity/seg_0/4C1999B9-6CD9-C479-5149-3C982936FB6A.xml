@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4C1999B9-6CD9-C479-5149-3C982936FB6A" name="WLASCIWOSCI_TYPU_OBIEKTU">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-12 17:59:03 UTC</createdTime>
+<ownerDesignName>Generyczny</ownerDesignName>
+<engineerTo>
+<item key="8689172A-E436-2C48-BED8-B7D8654B3E02" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="KOD_TYPU_OBIEKTU" id="93C15EFD-4096-8E9D-2A48-8E14A2342D7B">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-12 18:02:53 UTC</createdTime>
+<generatorID>8EB0BFC0-F719-EDCB-FDDF-FD3BE5FE80F4</generatorID>
+<ownerDesignName>Generyczny</ownerDesignName>
+<engineerTo>
+<item key="8689172A-E436-2C48-BED8-B7D8654B3E02" value="true"/>
+</engineerTo>
+<referedAttribute>6BDD1690-402C-F2AB-2A28-0348E8627E31</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KOD_WLASCIWOSCI" id="F83CAD7B-8FDC-D946-DCB0-7990A80E8336">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-12 18:03:10 UTC</createdTime>
+<generatorID>2DCCAE7D-B614-4E8A-6C93-5DD24F8E6F4E</generatorID>
+<ownerDesignName>Generyczny</ownerDesignName>
+<engineerTo>
+<item key="8689172A-E436-2C48-BED8-B7D8654B3E02" value="true"/>
+</engineerTo>
+<referedAttribute>DA673D83-725C-8A02-0370-0F02B3EEFB07</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C908FC17-E843-2EAF-2EBE-8C367E685336" name="WLASCIWOSCI_TYPU_OBIEKTU PK">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-12 17:59:40 UTC</createdTime>
+<ownerDesignName>Generyczny</ownerDesignName>
+<engineerTo>
+<item key="8689172A-E436-2C48-BED8-B7D8654B3E02" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1F86FEFF-F0DE-975D-34B3-C2A2B1F74750</attributeRef>
+<attributeRef>93C15EFD-4096-8E9D-2A48-8E14A2342D7B</attributeRef>
+<attributeRef>F83CAD7B-8FDC-D946-DCB0-7990A80E8336</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
